@@ -29,7 +29,7 @@ def main():
     staged = [x for x in git('ls-files', '-z').decode('utf-8').split('\0') if x]
     errors = []
     # Private originals and extraction must remain ignored, even before staging.
-    for private in ['训练数据', '.private', 'PROJECT_STATUS.md']:
+    for private in ['训练数据', '范文资料', '.private', 'PROJECT_STATUS.md']:
         probe = subprocess.run(['git', '-C', str(ROOT), 'check-ignore', '-q', private], capture_output=True)
         if probe.returncode != 0:
             errors.append(f'{private}: not ignored')
