@@ -1,0 +1,13 @@
+.gitignore
+README.md
+PUBLIC_FILES.txt
+skills/shanghai-essay-revise/SKILL.md
+skills/shanghai-essay-revise/agents/openai.yaml
+skills/shanghai-essay-revise/references/revision.md
+skills/shanghai-essay-revise/references/input.md
+skills/shanghai-essay-revise/references/delivery.md
+skills/shanghai-essay-revise/scripts/count_text.py
+skills/shanghai-essay-revise/scripts/save_review.py
+scripts/audit_public.py
+tests/test_tools.py
+evals/scenarios.md

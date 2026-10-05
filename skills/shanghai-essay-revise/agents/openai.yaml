@@ -1,0 +1,4 @@
+interface:
+  display_name: "上海高考议论文批改与升格"
+  short_description: "结合个人写作资料检查审题与论证，保留主线并提供修改对照和完整升格稿"
+  default_prompt: "使用 $shanghai-essay-revise 批改这篇上海高考议论文，保留主线，解释关键修改并给出850—950字修订稿。"
