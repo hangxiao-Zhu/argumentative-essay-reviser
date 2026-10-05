@@ -7,6 +7,7 @@ skills/shanghai-essay-revise/references/revision.md
 skills/shanghai-essay-revise/references/input.md
 skills/shanghai-essay-revise/references/delivery.md
 skills/shanghai-essay-revise/references/exemplar-guidance.md
+skills/shanghai-essay-revise/references/intent-reconstruction.md
 skills/shanghai-essay-revise/scripts/count_text.py
 skills/shanghai-essay-revise/scripts/save_review.py
 scripts/audit_public.py
